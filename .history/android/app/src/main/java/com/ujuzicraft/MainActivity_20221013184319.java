@@ -1,4 +1,4 @@
-package com.ujuzicraft.lulu;
+package com.dedan.myapplication;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

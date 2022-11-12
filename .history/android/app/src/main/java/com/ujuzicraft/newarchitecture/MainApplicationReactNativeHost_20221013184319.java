@@ -1,4 +1,4 @@
-package com.ujuzicraft.lulu.newarchitecture;
+package com.dedan.myapplication.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.ujuzicraft.lulu.BuildConfig;
-import com.ujuzicraft.lulu.newarchitecture.components.MainComponentsRegistry;
-import com.ujuzicraft.lulu.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.dedan.myapplication.BuildConfig;
+import com.dedan.myapplication.newarchitecture.components.MainComponentsRegistry;
+import com.dedan.myapplication.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

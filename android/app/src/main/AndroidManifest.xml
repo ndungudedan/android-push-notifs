@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.ujuzicraft.lulu">
+  package="com.dedan.myapplication">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

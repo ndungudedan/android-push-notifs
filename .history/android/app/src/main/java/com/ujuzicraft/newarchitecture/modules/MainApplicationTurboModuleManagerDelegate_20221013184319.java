@@ -1,4 +1,4 @@
-package com.ujuzicraft.lulu.newarchitecture.modules;
+package com.dedan.myapplication.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;
