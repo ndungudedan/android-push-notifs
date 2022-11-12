@@ -1,0 +1,275 @@
+{
+  "project_info": {
+    "project_number": "913023217999",
+    "firebase_url": "https://outcrafting-1aec5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "outcrafting-1aec5",
+    "storage_bucket": "outcrafting-1aec5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913023217999:android:0e2a3b5b759d74e828953a",
+        "android_client_info": {
+          "package_name": "com.onetouch.howclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913023217999-3kang1la7h36m9lo239gk0rmkb9co5gm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.onetouch.howclient",
+            "certificate_hash": "7378c82c4268e2dc3f67b8c3f65e7bd21ca2f62e"
+          }
+        },
+        {
+          "client_id": "913023217999-vj4pflci2p0tckdnr5i9vtqohg3tbrtd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx81MCSeSxE6JZAnbNK84ov923QZr_H10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913023217999-vj4pflci2p0tckdnr5i9vtqohg3tbrtd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "913023217999-2b02g8bs4jlevobk68t1i1qf68gj1ev7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onetouch.howclient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913023217999:android:f8b30e3c53490a3a28953a",
+        "android_client_info": {
+          "package_name": "com.onetouch.howdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913023217999-frs70ti9qf3pog1p52kdm9j19v18hfgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.onetouch.howdriver",
+            "certificate_hash": "7378c82c4268e2dc3f67b8c3f65e7bd21ca2f62e"
+          }
+        },
+        {
+          "client_id": "913023217999-vj4pflci2p0tckdnr5i9vtqohg3tbrtd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx81MCSeSxE6JZAnbNK84ov923QZr_H10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913023217999-vj4pflci2p0tckdnr5i9vtqohg3tbrtd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "913023217999-2b02g8bs4jlevobk68t1i1qf68gj1ev7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onetouch.howclient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913023217999:android:85684089e69b333c28953a",
+        "android_client_info": {
+          "package_name": "com.onetouch.howmerchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913023217999-bgrgrpa0787bn31obee5aq32tq8kah7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.onetouch.howmerchant",
+            "certificate_hash": "7378c82c4268e2dc3f67b8c3f65e7bd21ca2f62e"
+          }
+        },
+        {
+          "client_id": "913023217999-vj4pflci2p0tckdnr5i9vtqohg3tbrtd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx81MCSeSxE6JZAnbNK84ov923QZr_H10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913023217999-vj4pflci2p0tckdnr5i9vtqohg3tbrtd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "913023217999-2b02g8bs4jlevobk68t1i1qf68gj1ev7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onetouch.howclient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913023217999:android:5f9eea6c4473a56228953a",
+        "android_client_info": {
+          "package_name": "com.ujuzicraft.lulu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913023217999-p8aqjlglok5d4ds7tqgvbil74rls4q5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ujuzicraft.lulu",
+            "certificate_hash": "7378c82c4268e2dc3f67b8c3f65e7bd21ca2f62e"
+          }
+        },
+        {
+          "client_id": "913023217999-vj4pflci2p0tckdnr5i9vtqohg3tbrtd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx81MCSeSxE6JZAnbNK84ov923QZr_H10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913023217999-vj4pflci2p0tckdnr5i9vtqohg3tbrtd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "913023217999-2b02g8bs4jlevobk68t1i1qf68gj1ev7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onetouch.howclient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913023217999:android:5b58a0df9a6a92b228953a",
+        "android_client_info": {
+          "package_name": "com.ujuzicraft.luludriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913023217999-8q2dg8kct17v48egagda0k7ce93g08pg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ujuzicraft.luludriver",
+            "certificate_hash": "7378c82c4268e2dc3f67b8c3f65e7bd21ca2f62e"
+          }
+        },
+        {
+          "client_id": "913023217999-vj4pflci2p0tckdnr5i9vtqohg3tbrtd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx81MCSeSxE6JZAnbNK84ov923QZr_H10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913023217999-vj4pflci2p0tckdnr5i9vtqohg3tbrtd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "913023217999-2b02g8bs4jlevobk68t1i1qf68gj1ev7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onetouch.howclient"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913023217999:android:17fb327584b33eff28953a",
+        "android_client_info": {
+          "package_name": "com.ujuzicraft.lulumerchant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913023217999-bbm69tbblkesd2p67minncfgve6n227v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ujuzicraft.lulumerchant",
+            "certificate_hash": "7378c82c4268e2dc3f67b8c3f65e7bd21ca2f62e"
+          }
+        },
+        {
+          "client_id": "913023217999-vj4pflci2p0tckdnr5i9vtqohg3tbrtd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx81MCSeSxE6JZAnbNK84ov923QZr_H10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913023217999-vj4pflci2p0tckdnr5i9vtqohg3tbrtd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "913023217999-2b02g8bs4jlevobk68t1i1qf68gj1ev7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onetouch.howclient"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
