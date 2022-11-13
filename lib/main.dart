@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 
+final navigatorKey = GlobalKey<NavigatorState>();
+
 @pragma('vm:entry-point')
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   print("Handling a background message: ${message.messageId}");
@@ -23,6 +25,32 @@ Future<void> main() async {
 
     if (message.notification != null) {
       print('Message also contained a notification: ${message.notification}');
+      showDialog(
+          context: navigatorKey.currentContext!,
+          builder: (context) => Center(
+                child: Material(
+                  color: Colors.white,
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text('Notification Received'),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Text(
+                          'Notification Title: ${message.notification?.title}'),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Text('Notification Body: ${message.notification?.body}'),
+                      SizedBox(
+                        height: 20,
+                      ),
+                    ],
+                  ),
+                ),
+              ));
     }
   });
 
@@ -39,12 +67,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter FCM Notifications',
+      navigatorKey: navigatorKey,
       theme: ThemeData(
-       
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Flutter FCM Notifications'),
     );
   }
 }
@@ -69,14 +97,12 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
       ),
       body: Center(
         child: Column(
-          
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
