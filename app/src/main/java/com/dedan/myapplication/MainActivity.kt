@@ -9,13 +9,20 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
 import com.dedan.myapplication.ui.theme.MyApplicationTheme
 import com.google.android.gms.tasks.OnCompleteListener
@@ -24,6 +31,9 @@ import com.google.firebase.messaging.ktx.messaging
 
 
 class MainActivity : ComponentActivity() {
+    var title="Notification Title"
+    var body="Notification Body"
+
     private val TAG:String="MAIN-ACTIVITY-LOG"
     private val requestPermissionLauncher = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
@@ -40,6 +50,10 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        if(intent.getStringExtra("title")!=null && intent.getStringExtra("body")!=null){
+            title=intent.getStringExtra("title")!!
+            body= intent.getStringExtra("body")!!
+        }
 
         setContent {
             MyApplicationTheme {
@@ -48,7 +62,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    Greeting(title,body)
                 }
             }
         }
@@ -90,15 +104,36 @@ class MainActivity : ComponentActivity() {
         })
     }
 }
+
 @Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+fun Greeting(title: String,body:String) {
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = {
+                    Text(text = "Android Notifications App")
+                },
+            )
+        }, content = {
+            Column(
+                modifier = Modifier
+                    .padding(it)
+                    .fillMaxSize(),
+                verticalArrangement = Arrangement.Center,
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text(text = "Title: $title!")
+                Text(text = "Body: $body!")
+            }
+
+        })
+
 }
 
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
     MyApplicationTheme {
-        Greeting("Android")
+        Greeting("Notifications Title","Notifications Body")
     }
 }
